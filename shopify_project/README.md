@@ -1,16 +1,44 @@
-# React + Vite
+# Product Detail Page
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A responsive product detail page built with React and Vite using a product API.
 
-Currently, two official plugins are available:
+## Features
+- Product details, images, and pricing
+- Product variant selection (color and size)
+- Quantity controls
+- Stock availability
+- Add to Cart interaction
+- Product specifications
+- Loading and error states
+- Responsive design
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Tech Stack
+- React
+- Vite
+- JavaScript
+- CSS
+- Fetch API
 
-## React Compiler
+## Getting Started
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+1. Clone the repository:
+   ```bash
+   git clone REPOSITORY_URL
+   ```
 
-## Expanding the Oxlint configuration
+2. Navigate to the project folder:
+   ```bash
+   cd PROJECT_FOLDER
+   ```
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+3. Install dependencies:
+   ```bash
+   npm install
+   ```
+
+4. Start the development server:
+   ```bash
+   npm run dev
+   ```
+
+5. Open the local URL shown in the terminal.
